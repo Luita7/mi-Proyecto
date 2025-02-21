@@ -1,0 +1,58 @@
+.contenedor {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(102, 120, 120);
+    border: 2px solid purple;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px; /* Establece el ancho de la imagen */
+    height: 150px; /* Establece la altura de la imagen */
+    border: 8px solid purple; /* Establece el borde de la imagen */
+    border-radius: 50%; /* Establece el radio de borde para que la imagen sea circular */
+    margin-bottom: 20px; /* Añade espacio inferior a la imagen */
+    background-size: cover; /* Escala la imagen para que cubra completamente el contenedor */
+    background-position: center center; /* Centra la imagen dentro del contenedor */
+    
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre {
+    
+    font-size: 28px; /* Establece el tamaño de fuente del nombre */
+}
+
+.casa {
+    color: purple; /* Establece el color del texto de la clase "casa" */
+}
+
+.descripcion {
+    padding: 15px; /* Añade espacio interno a la descripción */
+    border: 3px dashed purple; /* Establece el borde punteado de la descripción */
+    border-radius: 15px; /* Establece el radio de borde de la descripción */
+}
